@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #000;
+    width: 300px;
+}
+
+.item:not(:last-cgilde) {
+    margin-right: 30px;
+}
+
+.title {
+    text-align: center;
+}
+
+.image {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.like {
+    display: block;
+    margin-bottom: auto;
+}
+
+.like__yes {
+    background-color: red;
+    display: block;
+    margin-bottom: auto;
+}
